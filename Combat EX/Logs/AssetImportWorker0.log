@@ -786,3 +786,131 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003715 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/JADUCUT/Documents/Combat_EX/Combat EX/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/JADUCUT/Documents/Combat_EX/Combat EX/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.719 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3722ms)
+		BeginReloadAssembly (660ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (116ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (219ms)
+		EndReloadAssembly (2665ms)
+			LoadAssemblies (210ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (393ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1676ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (41ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (150ms)
+				ProcessInitializeOnLoadAttributes (1329ms)
+				ProcessInitializeOnLoadMethodAttributes (150ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3489 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 130 unused Assets / (17.1 MB). Loaded Objects now: 3915.
+Memory consumption went from 311.6 MB to 294.4 MB.
+Total: 11.682958 ms (FindLiveObjects: 0.273000 ms CreateObjectMapping: 0.155792 ms MarkObjects: 3.065459 ms  DeleteObjects: 8.187625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 384.282893 seconds.
+  path: Assets/uchwch/SD_Chan_Animation_Bundle
+  artifactKey: Guid(ac5995c106e61d6458fe07e3f8eefa02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/uchwch/SD_Chan_Animation_Bundle using Guid(ac5995c106e61d6458fe07e3f8eefa02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4170c64468036a5d3c76cc7f5d7d06ca') in 0.019322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.015409 seconds.
+  path: Assets/uchwch/SD_Chan_Animation_Bundle/Scenes
+  artifactKey: Guid(8634c365695141249bc5164e3fc019d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/uchwch/SD_Chan_Animation_Bundle/Scenes using Guid(8634c365695141249bc5164e3fc019d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa502265eda77905254141685ade75a') in 0.002381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.742205 seconds.
+  path: Assets/uchwch/SD_Chan_Animation_Bundle/Art
+  artifactKey: Guid(9fd231aa4d8be424fb7a2b80d6fff0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/uchwch/SD_Chan_Animation_Bundle/Art using Guid(9fd231aa4d8be424fb7a2b80d6fff0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ced93251c57282372ef02cb7764af82') in 0.001508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.568380 seconds.
+  path: Assets/uchwch/SD_Chan_Animation_Bundle/Art/Animation
+  artifactKey: Guid(bf41029e504f2a941bd5e5f349d27ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/uchwch/SD_Chan_Animation_Bundle/Art/Animation using Guid(bf41029e504f2a941bd5e5f349d27ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d06126005f2a78100d1559ce167728b') in 0.002008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.476208 seconds.
+  path: Assets/uchwch/SD_Chan_Animation_Bundle/Art/Materials
+  artifactKey: Guid(c7b571ecd18d3da42b5479d2b4032f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/uchwch/SD_Chan_Animation_Bundle/Art/Materials using Guid(c7b571ecd18d3da42b5479d2b4032f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c12a565b8285e841fe8c82c6aa9ae9c9') in 0.001081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029054 seconds.
+  path: Assets/uchwch/SD_Chan_Animation_Bundle/Art/Materials/bg.mat
+  artifactKey: Guid(a4518416552ea6a4992a943612a65291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/uchwch/SD_Chan_Animation_Bundle/Art/Materials/bg.mat using Guid(a4518416552ea6a4992a943612a65291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b936427d2f95b54b7563cb44a37bb562') in 0.274238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/uchwch/SD_Chan_Animation_Bundle/Art/Materials/Unity_chan_body.mat
+  artifactKey: Guid(a4ed31ac8857b954093ccf3805c7032f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/uchwch/SD_Chan_Animation_Bundle/Art/Materials/Unity_chan_body.mat using Guid(a4ed31ac8857b954093ccf3805c7032f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e988d4b7badc3ac4491cb5dd0ab14f0') in 0.639531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/uchwch/SD_Chan_Animation_Bundle/Art/Materials/Unity_chan_hair.mat
+  artifactKey: Guid(5704d53d8eb56d842b4949f553cd1c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/uchwch/SD_Chan_Animation_Bundle/Art/Materials/Unity_chan_hair.mat using Guid(5704d53d8eb56d842b4949f553cd1c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ba4d0aa01c36818365617fa7aa8967') in 0.023015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.759112 seconds.
+  path: Assets/uchwch/SD_Chan_Animation_Bundle/Art/Meshes
+  artifactKey: Guid(b8b5ea82cb2c7434ab56548b452876e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/uchwch/SD_Chan_Animation_Bundle/Art/Meshes using Guid(b8b5ea82cb2c7434ab56548b452876e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26a3a26a127a3d8e47c41b404b8828a') in 0.002002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.781968 seconds.
+  path: Assets/uchwch/SD_Chan_Animation_Bundle/Art/Meshes/SD_Unity_Chan
+  artifactKey: Guid(a8aeaf93cedf0c947a517ab4b5de5f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/uchwch/SD_Chan_Animation_Bundle/Art/Meshes/SD_Unity_Chan using Guid(a8aeaf93cedf0c947a517ab4b5de5f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fafb6ab9696b752efafa909563aab4e') in 0.001817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.073943 seconds.
+  path: Assets/uchwch/SD_Chan_Animation_Bundle/Art/Meshes/SD_Unity_Chan/Unity_Chan_generic.FBX
+  artifactKey: Guid(e7adda870136f9040b82aaa84394d7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/uchwch/SD_Chan_Animation_Bundle/Art/Meshes/SD_Unity_Chan/Unity_Chan_generic.FBX using Guid(e7adda870136f9040b82aaa84394d7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713950f49beeac1cca544d7dae0a170c') in 0.394689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 299.007306 seconds.
+  path: Assets/uchwch/SD_Chan_Animation_Bundle/Art/Meshes/SD_Unity_Chan/Unity_Chan_generic.FBX
+  artifactKey: Guid(e7adda870136f9040b82aaa84394d7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/uchwch/SD_Chan_Animation_Bundle/Art/Meshes/SD_Unity_Chan/Unity_Chan_generic.FBX using Guid(e7adda870136f9040b82aaa84394d7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83dd18c628953279e58cd33ae3af3bd1') in 0.159447 seconds 
