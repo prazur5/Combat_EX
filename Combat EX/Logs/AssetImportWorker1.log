@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50379
+51047
 Successfully changed project path to: /Users/JADUCUT/Documents/Combat_EX/Combat EX
 Could not lock editor preferences. Preferences updates for this instance of Unity will not be saved./Users/JADUCUT/Documents/Combat_EX/Combat EX
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Could not lock editor preferences. Preferences updates for this instance of Unit
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 98.63 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 103.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -69,90 +69,90 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56931
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56836
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000502 seconds.
+Registered in 0.001817 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 96.51 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 101.81 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.581 seconds
+- Completed reload, in  1.615 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1583ms)
-		BeginReloadAssembly (157ms)
+	ReloadAssembly (1617ms)
+		BeginReloadAssembly (155ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1164ms)
-			LoadAssemblies (155ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1201ms)
+			LoadAssemblies (153ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (150ms)
+			SetupTypeCache (153ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (815ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (849ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (97ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (517ms)
-				ProcessInitializeOnLoadMethodAttributes (176ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (102ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (527ms)
+				ProcessInitializeOnLoadMethodAttributes (195ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006659 seconds.
+Registered in 0.006080 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/JADUCUT/Documents/Combat_EX/Combat EX/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/JADUCUT/Documents/Combat_EX/Combat EX/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.678 seconds
+- Completed reload, in  2.538 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2681ms)
-		BeginReloadAssembly (254ms)
+	ReloadAssembly (2540ms)
+		BeginReloadAssembly (255ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (42ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (2109ms)
-			LoadAssemblies (149ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1961ms)
+			LoadAssemblies (139ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (368ms)
+			SetupTypeCache (372ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (1328ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (1185ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (136ms)
-				ProcessInitializeOnLoadAttributes (1028ms)
-				ProcessInitializeOnLoadMethodAttributes (148ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (912ms)
+				ProcessInitializeOnLoadMethodAttributes (115ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3494 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 108 unused Assets / (12.4 MB). Loaded Objects now: 3873.
 Memory consumption went from 269.7 MB to 257.3 MB.
-Total: 10.911375 ms (FindLiveObjects: 0.398209 ms CreateObjectMapping: 0.114959 ms MarkObjects: 2.868916 ms  DeleteObjects: 7.528583 ms)
+Total: 8.254833 ms (FindLiveObjects: 0.252041 ms CreateObjectMapping: 0.094708 ms MarkObjects: 2.505417 ms  DeleteObjects: 5.401792 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -165,74 +165,50 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 6548.882672 seconds.
-  path: Assets/uchwch/SD_Chan_Animation_Bundle/Art/Animation/SD_Unity_Chan/Humanoid/Unity_Chan_Idle_01.FBX
-  artifactKey: Guid(19461e490ece6fb4091eb895decb51c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/uchwch/SD_Chan_Animation_Bundle/Art/Animation/SD_Unity_Chan/Humanoid/Unity_Chan_Idle_01.FBX using Guid(19461e490ece6fb4091eb895decb51c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea990e5c77e5fab8e9f9712ecee36b4') in 0.801935 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/uchwch/SD_Chan_Animation_Bundle/Art/Animation/SD_Unity_Chan/Humanoid/Unity_Chan_Run.FBX
-  artifactKey: Guid(8fe51282281116f41bae153be0a57640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/uchwch/SD_Chan_Animation_Bundle/Art/Animation/SD_Unity_Chan/Humanoid/Unity_Chan_Run.FBX using Guid(8fe51282281116f41bae153be0a57640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b276a3444a1901bbc59963f9387775f') in 0.113147 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.724767 seconds.
-  path: Assets/uchwch/SD_Chan_Animation_Bundle/Art/Animation/SD_Unity_Chan/Generic/Unity_Chan_G_Jump.FBX
-  artifactKey: Guid(d0a18e7890a0d9c46af8e21140f9927d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/uchwch/SD_Chan_Animation_Bundle/Art/Animation/SD_Unity_Chan/Generic/Unity_Chan_G_Jump.FBX using Guid(d0a18e7890a0d9c46af8e21140f9927d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8786572120bfbf2975910a2fa9f3212') in 0.111854 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/uchwch/SD_Chan_Animation_Bundle/Art/Animation/SD_Unity_Chan/Generic/Unity_Chan_G_Run.FBX
-  artifactKey: Guid(bc70b7a8a27090d4799dd464d0064935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/uchwch/SD_Chan_Animation_Bundle/Art/Animation/SD_Unity_Chan/Generic/Unity_Chan_G_Run.FBX using Guid(bc70b7a8a27090d4799dd464d0064935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995da1843da4b1c4a9fb6c58d0ebf3fe') in 0.078543 seconds 
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001871 seconds.
+Registered in 0.001781 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/JADUCUT/Documents/Combat_EX/Combat EX/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/JADUCUT/Documents/Combat_EX/Combat EX/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.673 seconds
+- Completed reload, in  2.531 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2675ms)
-		BeginReloadAssembly (341ms)
+	ReloadAssembly (2533ms)
+		BeginReloadAssembly (316ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (35ms)
+			DisableScriptedObjects (44ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (120ms)
-		EndReloadAssembly (2074ms)
-			LoadAssemblies (132ms)
+			CreateAndSetChildDomain (100ms)
+		EndReloadAssembly (1971ms)
+			LoadAssemblies (107ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (392ms)
+			SetupTypeCache (395ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (1291ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (1214ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (32ms)
+				InitializePlatformSupportModulesInManaged (31ms)
 				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (122ms)
-				ProcessInitializeOnLoadAttributes (989ms)
-				ProcessInitializeOnLoadMethodAttributes (144ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (932ms)
+				ProcessInitializeOnLoadMethodAttributes (132ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.94 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.85 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3460 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 101 unused Assets / (12.4 MB). Loaded Objects now: 3921.
-Memory consumption went from 288.6 MB to 276.2 MB.
-Total: 9.851042 ms (FindLiveObjects: 0.307125 ms CreateObjectMapping: 0.104958 ms MarkObjects: 3.128167 ms  DeleteObjects: 6.309541 ms)
+Unloading 101 unused Assets / (12.4 MB). Loaded Objects now: 3876.
+Memory consumption went from 266.5 MB to 254.1 MB.
+Total: 9.452042 ms (FindLiveObjects: 0.314750 ms CreateObjectMapping: 0.086125 ms MarkObjects: 2.789791 ms  DeleteObjects: 6.259916 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
