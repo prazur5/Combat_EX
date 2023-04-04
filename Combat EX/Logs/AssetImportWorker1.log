@@ -220,3 +220,21 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8469.005193 seconds.
+  path: Assets/uchwch/SD_Chan_Animation_Bundle/Art/Textures/utc_all2.tga
+  artifactKey: Guid(53532607af79a914bba777ea3a297658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/uchwch/SD_Chan_Animation_Bundle/Art/Textures/utc_all2.tga using Guid(53532607af79a914bba777ea3a297658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c7f1260ca7ced7b17b9bdd8390c3c3') in 1.094866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/uchwch/SD_Chan_Animation_Bundle/Art/Textures/utc_spec.tga
+  artifactKey: Guid(e124ee241267f2d4a9ebdedbd7a49ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/uchwch/SD_Chan_Animation_Bundle/Art/Textures/utc_spec.tga using Guid(e124ee241267f2d4a9ebdedbd7a49ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '097ba8e07db041e819b84fe042d3d892') in 0.014884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 63.844959 seconds.
+  path: Assets/uchwch/SD_Chan_Animation_Bundle/Art/Prefabs/Unity_Chan_generic.prefab
+  artifactKey: Guid(64c9d96775079344fac674889078804c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/uchwch/SD_Chan_Animation_Bundle/Art/Prefabs/Unity_Chan_generic.prefab using Guid(64c9d96775079344fac674889078804c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77b2e17f86d76753da79f7b6fd18f40') in 0.458835 seconds 

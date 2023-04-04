@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Combat_EX.unity
+- path: Assets/uchwch/SD_Chan_Animation_Bundle/Scenes/Animation List.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
